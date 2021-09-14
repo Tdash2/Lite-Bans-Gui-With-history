@@ -1,0 +1,23 @@
+main: me.dash.history.History
+version: 1.0
+name: Punshment
+api-version: 1.15
+
+commands:
+    history:
+      usage: /<command>
+    punish:
+      description: Punish a player
+      usage:
+    NewPunishment:
+      description: Make a New Punishment
+      usage:
+    pardon:
+      description: Unpunish a player
+      usage:
+    newban:
+      description: Makes a new ban.
+      usage:
+    newmute:
+      description: Makes a new mute.
+      usage:

@@ -1,0 +1,10 @@
+me\dash\history\type\types\KickHistory.class
+me\dash\history\events\InventoryEvent.class
+me\dash\history\utils\ItemBuilder.class
+me\dash\history\type\types\MuteHistory.class
+me\dash\history\sql\Database.class
+me\dash\history\type\types\BanHistory.class
+me\dash\history\user\HistoryUser.class
+me\dash\history\History.class
+me\dash\history\commands\HistoryCommand.class
+me\dash\history\type\HistoryType.class

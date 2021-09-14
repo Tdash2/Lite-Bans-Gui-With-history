@@ -1,0 +1,107 @@
+# Weclome To The Config Of Ban Gui
+# Permission:
+# /pardon - (Gui.pardon) : Lets you open the punishments menu.
+# /punish - (Gui.punish) : Lets you open the punishments menu.
+# na - (Gui.pardon.unmute) : Lets you unmute a player.
+# na - (Gui.pardon.unban) : Lets you banmute a player.
+# na - (gui.no) : Prevents you form being banned.
+# na - (Gui.time.1) : Lets you use the first time opinion
+# na - (Gui.time.2) : Lets you use the second time opinion
+# na - (Gui.time.3) : Lets you use the third time opinion
+# na - (Gui.time.4) : Lets you use the forth time opinion
+# na - (Gui.time.5) : Lets you use the fifth time opinion
+
+#My Sql For reports. (Use the same db as litebans)
+name: root   #Db Username
+password:    #Db Password
+database: history  #Db Name
+host: localhost  #Db Ip
+port: 3306   #Db Port
+
+Server_1: 'Hardcore' #This set the server that the player will be baned on
+Server_2: 'Nations' #This set the server that the player will be baned on
+
+Ban_Command: 'tempban -s' #This command will be ran by the ban to mute a player
+Mute_Command: 'tempmute' #This command will be ran by the concle to mute a player
+
+First_Reason_block: 'WEB' #The block that shows for the first reason. Must Be all uppercase!
+First_Reason: 'Ping_Spoof' #What the Item should be called
+First_Reason_lore: 'This fakes lag' #what the lure should be.
+
+Second_Reason_block: 'DIAMOND_SWORD' #The block that shows for the Second reason. Must Be all uppercase!
+Second__Reason: 'Kill_Aura' #What the Item should be called
+Second__Reason_lore: 'Kills Mobs Around You.' #what the lure should be.
+
+Third_Reason_block: 'WATER_BUCKET' #The block that shows for the Third reason. Must Be all uppercase!
+Third_Reason: 'Jesus_Hacks' #What the Item should be called
+Third_Reason_lore: 'Lets you walk on water.' #what the lure should be.
+
+Forth_Reason_block: 'BARRIER' #The block that shows for the Forth reason. Must Be all uppercase!
+Forth_Reason: 'Anti_Afk' #What the Item should be called
+Forth_Reason_lore: 'Prevents you form being afk kicked.' #what the lure should be.
+
+Fith_Reason_block: 'DIAMOND_ORE' #The block that shows for the Fith reason. Must Be all uppercase!
+Fith_Reason: 'Xray' #What the Item should be called
+Fith_Reason_lore: 'See Through The Ground.' #what the lure should be.
+
+Sixth_Reason_block: 'POTION' #The block that shows for the Sixth reason. Must Be all uppercase!
+Sixth_Reason: 'Speed_Hacks' #What the Item should be called
+Sixth_Reason_lore: 'Makes you move faster.' #what the lure should be.
+
+Seventh_Reason_block: 'CHEST' #The block that shows for the Seventh reason. Must Be all uppercase!
+Seventh_Reason: 'Chest_Esp' #What the Item should be called
+Seventh_Reason_lore: 'Lets you see chest through the ground.' #what the lure should be.
+
+Eighth_Reason_block: 'BOOK' #The block that shows for the Eighth reason. Must Be all uppercase!
+Eighth_Reason: 'Spamming' #What the Item should be called
+Eighth_Reason_lore: 'Sending a lot of messages in chat' #what the lure should be.
+
+Ninth_Reason_block: 'FEATHER' #The block that shows for the Ninth reason. Must Be all uppercase!
+Ninth_Reason: 'Fly_Hacks' #What the Item should be called
+Ninth_Reason_lore: 'Lets you fly.' #what the lure should be.
+
+Tenth_Reason_block: 'BEDROCK' #The block that shows for the Tenth reason. Must Be all uppercase!
+Tenth_Reason: 'Dupping' #What the Item should be called
+Tenth_Reason_lore: 'Making coppys of a item.' #what the lure should be.
+
+Eleventh_Reason_block: 'REDSTONE_BLOCK' #The block that shows for the Eleventh reason. Must Be all uppercase!
+Eleventh_Reason: 'Staff_Disrespect' #What the Item should be called
+Eleventh_Reason_lore: 'Disrespecting Staff' #what the lure should be.
+
+Twelfth_Reason_block: 'SAND' #The block that shows for the Twelfth reason. Must Be all uppercase!
+Twelfth_Reason: 'Skin_Blinker' #What the Item should be called
+Twelfth_Reason_lore: 'Makes your skin blink' #what the lure should be.
+
+Thirteenth_Reason_block: 'CACTUS' #The block that shows for the Thirteenth reason. Must Be all uppercase!
+Thirteenth_Reason: 'Mob_Aura' #What the Item should be called
+Thirteenth_Reason_lore: 'Kills mobs around you.' #what the lure should be.
+
+Fourteenth_Reason_block: 'TNT' #The block that shows for the Fourteenth reason. Must Be all uppercase!
+Fourteenth_Reason: 'Nuker' #What the Item should be called
+Fourteenth_Reason_lore: 'Breaks Blocks Around you.' #what the lure should be.
+
+Fifteenth_Reason_block: 'SLIME_BLOCK' #The block that shows for the Fifteenth reason. Must Be all uppercase!
+Fifteenth_Reason: 'No Slow' #What the Item should be called
+Fifteenth_Reason_lore: 'Keeps your speed the same well eating' #what the lure should be.
+#------------------------------------------------------------------------------------------------------------
+Time_bolck: 'COMPASS'
+
+Time_1: '1 Day'
+Ban_Time_1: '1d'
+Lore_1: 'You Need To Be A Helper'
+
+Time_2: '7 Day'
+Ban_Time_2: '7d'
+Lore_2: 'You Need To Be A Mod'
+
+Time_3: '14 Day'
+Ban_Time_3: '14d'
+Lore_3: 'You Need To Be A Mod'
+
+Time_4: '21 day'
+Ban_Time_4: '21d'
+Lore_4: 'You Need To Be A Admin'
+
+Time_5: 'Perm'
+Ban_Time_5: '100000d'
+Lore_5: 'You Need To Be A Admin'
